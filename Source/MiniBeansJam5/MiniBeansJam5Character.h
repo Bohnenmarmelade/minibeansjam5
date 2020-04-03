@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "PaperCharacter.h"
 #include "MiniBeansJam5Character.generated.h"
 
 UCLASS(config=Game)
-class AMiniBeansJam5Character : public ACharacter
+class AMiniBeansJam5Character : public APaperCharacter
 {
 	GENERATED_BODY()
 

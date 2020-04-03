@@ -4,11 +4,14 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-		{
-			"Name": "MiniBeansJam5",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
+    {
+      "Name": "MiniBeansJam5",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Paper2D"
+      ]
+    }
 	],
 	"Plugins": [
 		{
